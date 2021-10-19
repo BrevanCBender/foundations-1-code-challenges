@@ -19,7 +19,7 @@ Output:
 export function makeArrayOfNames(arr) {
     const arrayOfNames = [];
     arr.forEach(element => arrayOfNames.push(element.name));
-    return arrayOfNames;  
+    return arrayOfNames; 
 }
 
 /*
@@ -47,6 +47,6 @@ Output:
 
 export function makeSpanishLanguageArray(arr) {
     const arrayEspanol = [];
-    arr.forEach(element => arrayEspanol.push({nombre: `${element.name}`, tipo: `${element.type}`}));
+    arr.forEach(element => arrayEspanol.push({ nombre: `${element.name}`, tipo: `${element.type}` }));
     return arrayEspanol;
 }

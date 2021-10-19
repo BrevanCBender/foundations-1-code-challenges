@@ -105,7 +105,7 @@ skip('should make a hash map', (expect) => {
     expect.deepEqual(actual, expected);
 });
 
-skip('should make a count object', (expect) => {
+test('should make a count object', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = {
